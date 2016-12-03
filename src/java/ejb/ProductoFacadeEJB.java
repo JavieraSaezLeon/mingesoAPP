@@ -19,6 +19,7 @@ public class ProductoFacadeEJB extends AbstractFacade<Producto> implements Produ
     public ProductoFacadeEJB() {
         super(Producto.class);
     }
+    
 
     @Override
     protected EntityManager getEntityManager() {
