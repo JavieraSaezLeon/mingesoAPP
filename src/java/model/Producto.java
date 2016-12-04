@@ -12,6 +12,7 @@ import java.util.Collection;
  * 
  **/
 
+
 @Entity
 @Table(name="producto")
 @NamedQuery(name="Producto.findAll", query="SELECT a FROM Producto a")

@@ -15,12 +15,11 @@ public class ProductoFacadeEJB extends AbstractFacade<Producto> implements Produ
     
     @PersistenceContext(unitName = "MingesoPU")
     private EntityManager em;
-    
+    private int vale = 0;
     public ProductoFacadeEJB() {
         super(Producto.class);
     }
     
-
     @Override
     protected EntityManager getEntityManager() {
         return this.em;
